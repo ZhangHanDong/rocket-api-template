@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  t1416-rust-api:
+    image: daocloud.io/demo/demo-api:master
+    ports:
+      - 11111:80
+    env_file:
+      - app.default.env
+    restart: always

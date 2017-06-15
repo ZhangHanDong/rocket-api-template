@@ -1,0 +1,16 @@
+[package]
+name = "demo"
+version = "0.1.0"
+authors = ["blackanger <blackanger.z@gmail.com>"]
+
+[dependencies]
+rocket = "0.2.6"
+rocket_codegen = "0.2.6"
+rocket_contrib = "0.2.6"
+serde = "0.9"
+serde_json = "0.9"
+serde_derive = "0.9"
+regex = "0.2.1"
+
+[dev-dependencies]
+rocket = { version = "0.2.6", features = ["testing"] }
