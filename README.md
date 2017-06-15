@@ -1,7 +1,8 @@
-
 # 说明
 
-此项目为使用Rocket框架快速建立API微服务的项目模板，方便快捷。
+此项目为使用[Rocket](https://github.com/SergioBenitez/Rocket)框架快速建立API微服务的项目模板，方便快捷。
+
+更多示例可以去官方demo查看。
 
 # 本地安装和测试
 
